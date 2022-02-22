@@ -19,8 +19,12 @@ dump($data);
 // git status - статус (отслеживание доб., изм., файлов)
 // git add * или git add . - добавить все файлы в репозиторий
 // git commit -m "НазваниеКомита"
-// git checkout [хеш или название комита] - переключаемся на комит
+// git checkout [хеш] - переключаемся на комит
 
 // git config --global user.name "ВАШЕ ИМЯ"
 // git config --global user.email "alexanderbalabas1993@gmail.com"
 // git log - вывод логов коммитов
+// git remote - посмотреть списко удаленных репозиториев
+// git remote add origin [ссылка на ваш репозиторий] - добавить репозиторий с псевдонимом origin
+// git push -u origin master - загрузить на сервер
+// git clone [ссылка на ваш репозиторий] - скачать репозиторий по ссылке
