@@ -5,7 +5,7 @@ require_once('vendor/autoload.php');
 use myLibary\User;
 
 $u = new User();
-
+echo 'test';
 
 exit;
 
