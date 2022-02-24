@@ -6,6 +6,7 @@ use myLibary\User;
 
 $u = new User();
 
+
 exit;
 
 $data = file_get_contents('https://jsonplaceholder.typicode.com/posts/1/comments');
