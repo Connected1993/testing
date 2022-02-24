@@ -5,8 +5,7 @@ require_once('vendor/autoload.php');
 use myLibary\User;
 
 $u = new User();
-echo 'test';
-
+echo 'test2';
 exit;
 
 $data = file_get_contents('https://jsonplaceholder.typicode.com/posts/1/comments');
